@@ -8,7 +8,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-linux-aws-redis"
+  ami_name      = "learn-packer-linux-aws-redis-msg"
   instance_type = "t2.micro"
   region        = "us-east-2"
   source_ami_filter {
